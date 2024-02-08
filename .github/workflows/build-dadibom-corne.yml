@@ -9,5 +9,7 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano_v2"]'
+      clipboard: 'Win'
       shield: '["corne_left","corne_right"]'
       kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
+      branches: '["zmkfirmware/zmk/main caksoylar/zmk/feat/mouse-keys-3.2"]'
