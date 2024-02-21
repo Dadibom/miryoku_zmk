@@ -11,5 +11,5 @@ jobs:
       board: '["nice_nano_v2"]'
       clipboard: '["Win"]'
       shield: '["corne_left","corne_right"]'
-      kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY=y","CONFIG_ZMK_WIDGET_BATTERY_STATUS_SHOW_PERCENTAGE=y","CONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES=y","CONFIG_ZMK_SLEEP=y"]'
       branches: '["zmkfirmware/zmk/main caksoylar/zmk/feat/mouse-keys-3.2"]'
