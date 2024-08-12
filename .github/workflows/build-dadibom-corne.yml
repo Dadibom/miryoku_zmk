@@ -11,5 +11,5 @@ jobs:
       board: '["nice_nano_v2"]'
       clipboard: '["Win"]'
       shield: '["corne_left","corne_right"]'
-      kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_WIDGET_BATTERY_STATUS_SHOW_PERCENTAGE=y\nCONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES=y\nCONFIG_ZMK_SLEEP=y"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_WIDGET_BATTERY_STATUS_SHOW_PERCENTAGE=y\nCONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES=y\nCONFIG_ZMK_SLEEP=y\nCONFIG_ZMK_IDLE_SLEEP_TIMEOUT=5400000"]'
       branches: '["caksoylar/zmk/feat/mouse-keys-3.2","zmkfirmware/zmk/main caksoylar/zmk/feat/mouse-keys-3.2"]'
