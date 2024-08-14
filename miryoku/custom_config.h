@@ -32,9 +32,9 @@
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-XXX  K00  K01  K02  K03  &kp LANG_ZENKAKUHANKAKU       K05  K06  K07  K08  K09  XXX \
+XXX  K00  K01  K02  K03  &kp INT_RO       K05  K06  K07  K08  K09  XXX \
 XXX  K10  K11  K12  K13  &kp INT_MUHENKAN       K15  K16  K17  K18  K19  XXX \
-XXX  K20  K21  K22  K23  &kp F18       K25  K26  K27  K28  K29  XXX  \
+XXX  K20  K21  K22  K23  &kp INT_KANA       K25  K26  K27  K28  K29  XXX  \
                &kp LCTRL  &kp SPACE  &kp TAB       K35  K36  K37
 
 #endif
